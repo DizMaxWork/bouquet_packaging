@@ -6,7 +6,7 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #f1f1f1;
-    line-height: 22px;
+    line-height: 25px;
 }
 .body{
     background: url("./img/main.png");
@@ -59,11 +59,69 @@
 }
 .textCourse{
     text-align: center;
+    padding-top: 20px 
 }
 .smallTextCourse{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .section{
     padding: 20px 0;
+}
+.sectionImg{
+    padding: 20px 0;
+    margin-top: -20px
+}
+.imgBlock{
+    text-align: center;
+}
+.card{
+    background: #d4668794;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+.cardTitle{
+    padding: 10px 0;
+}
+.sublist{
+    padding-bottom: 20px;
+}
+.price{
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: right;
+}
+.btn{
+    text-align: center;
+    background: #b21049;
+    border-radius: 20px;
+    padding: 12px 0;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+.allLi{
+    padding: 5px 0;
+}
+.question{
+    padding-bottom: 10px;
+}
+.btn2{
+    text-align: center;
+    background: #b21049;
+    border-radius: 20px;
+    padding: 12px 0;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+.btnBlock{
+    display: flex;
+    margin-bottom: 15px;
 }
