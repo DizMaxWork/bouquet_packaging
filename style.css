@@ -125,3 +125,11 @@
     display: flex;
     margin-bottom: 15px;
 }
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ffffff;
+}

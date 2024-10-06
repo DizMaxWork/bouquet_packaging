@@ -10,6 +10,18 @@ $(document).ready(function () {
     arrows: false,
   });
 });
+$(document).ready(function () {
+  $(".test").slick({
+    dots: true,
+    infinite: true,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+  });
+});
 const anchors = document.querySelectorAll('a[href*="#"]');
 
 for (let anchor of anchors) {
